@@ -3,28 +3,36 @@
         "editor.wordWrap": "on",
         "editor.wordWrapColumn": 8,
         "editorGutter.background": "#1d1f33",
+
         "sideBar.background": "#1d1f33",
         "sideBar.foreground": "#9096b9",
         "sideBar.border": "#2a2d44",
+
         "titleBar.activeBackground": "#1d1f33",
         "titleBar.activeForeground": "#8288ac",
         "titleBar.border": "#000000",
+
         "editorGroupHeader.tabsBackground": "#1d1f33",
+
         "tab.inactiveBackground": "#1d1f33",
         "tab.activeBackground": "#1d1f33",
         "tab.hoverBackground": "#1d1f33",
         "tab.activeBorder": "#5b5e72",
         "tab.activeForeground": "#8288ac",
         "tab.inactiveForeground": "#777d9c",
+
         "editor.background": "#1d1f33",
+
         "activityBar.foreground": "#cfcfcf",
         "activityBar.background": "#1a1c2c",
         "activityBar.dropBackground": "#1d1f33",
         "activityBar.border": "#171927",
         "activityBarBadge.background": "#a3a3a3",
+
         "statusBar.border": "#1d1f33",
         "statusBar.background": "#1d1f33",
         "statusBar.foreground": "#a5a5a5",
+
         "terminal.background": "#1d1f33",
         "terminal.selectionBackground": "#1a191981",
         "terminalCursor.foreground": "#9494947c",
@@ -67,7 +75,7 @@
     "css.hover.references": false,
     "scss.hover.references": false,
     "terminal.integrated.gpuAcceleration": "off",
-    "bracket-pair-colorizer-2.depreciation-notice": false,
+
     "editor.tokenColorCustomizations": {
         "comments": "#5B595C"
     },
@@ -86,28 +94,6 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "vue-format.js-beautify": {
-        "indent_size": "editor.tabSize",
-        "indent_char": " ",
-        "indent_with_tabs": false,
-        "brace-style": "collapse",
-        "space_after_anon_function": true,
-        "css": {},
-        "js": {},
-        "html": {
-            "force_format": [
-                "template"
-            ]
-        }
-    },
-    "vue-format.format_need": [
-        "html",
-        "js",
-        "css"
-    ],
-    "vue-format.pug-beautify": {
-        "fill_tab": false
-    },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
@@ -124,24 +110,8 @@
     "editor.lineHeight": 26,
     "editor.fontSize": 12,
     "cSpell.language": "en,es",
-    "cSpell.enableFiletypes": [
-        "blade"
-    ],
-    "cSpell.userWords": [
-        "endforeach",
-        "endisset",
-        "endsection",
-        "fieldset",
-        "finalizaci",
-        "finalización",
-        "isset",
-        "n",
-        "sgpar",
-        "Subsanación",
-        "tbody",
-        "thead",
-        "usuario"
-    ],
+    "cSpell.enableFiletypes": ["blade"],
+    "cSpell.userWords": ["endforeach", "endisset", "endsection", "fieldset", "finalizaci", "finalización", "isset", "n", "sgpar", "Subsanación", "tbody", "thead", "usuario"],
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -179,13 +149,8 @@
         "editor.tabSize": 4,
         "editor.formatOnType": false
     },
-    "errorLens.excludeBySource": [
-        "js(2306)",
-        "js(7006)"
-    ],
-    "errorLens.exclude": [
-        "Option 'importsNotUsedAsValues' is deprecated and will stop functioning in TypeScript 5\\.5\\. Specify compilerOption '\"ignoreDeprecations\": \"5\\.0\"' to silence this error\\.  Use 'verbatimModuleSyntax' instead\\."
-    ],
+    "errorLens.excludeBySource": ["js(2306)", "js(7006)"],
+    "errorLens.exclude": ["Option 'importsNotUsedAsValues' is deprecated and will stop functioning in TypeScript 5\\.5\\. Specify compilerOption '\"ignoreDeprecations\": \"5\\.0\"' to silence this error\\.  Use 'verbatimModuleSyntax' instead\\."],
     "tabnine.experimentalAutoImports": true,
     "symbols.hidesExplorerArrows": false,
     "editor.tabSize": 4,
